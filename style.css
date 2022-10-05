@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+
+body {
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+
+.formbox {
+    display: block;
+    width: 90%;
+    margin: 4px auto;
+    padding: 8px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    transition: .8s box-shadow;
+}
+
+.formMsg {
+    display: block;
+    width: 100%;
+    margin: 4px auto;
+    padding: 8px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    transition: .8s box-shadow;
+}
+
+
+select,
+textarea,
+input {
+    display: block;
+    width: 70%;
+    margin: 4px auto;
+    padding: 8px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .8s box-shadow;
+}
+
+input:hover {
+    box-shadow: 0 0 4px #3F51B5;
+}
+
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+
+
+
+button {
+
+    display: block;
+    padding: 8px;
+    border: none;
+    margin: 20px auto;
+    background-color: #3F51B5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 70%;
+}
